@@ -54,3 +54,4 @@ frontend/node_modules/
 .tmp/
 temp/
 *.log
+terraform/

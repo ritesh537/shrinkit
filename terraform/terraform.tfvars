@@ -1,4 +1,4 @@
-aws_region   = "us-east-1"
+aws_region   = "ap-south-1"
 project_name = "shrinkit"
 environment  = "dev"
 lambda_zip_path = "../backend/lambda.zip"

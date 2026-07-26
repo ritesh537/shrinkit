@@ -4,19 +4,22 @@
   "private": true,
   "homepage": "https://shrinkit.goodvibes-app.com",
   "dependencies": {
+    "ajv": "^8.20.0",
+    "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "axios": "^1.4.0",
-    "react-recaptcha-v3": "^1.10.1"
+    "react-recaptcha-v3": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-scripts": "5.0.1"
+    "gh-pages": "^6.0.0",
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [

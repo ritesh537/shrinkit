@@ -1,5 +1,5 @@
 import React from 'react';
-import { GoogleReCaptchaProvider } from 'react-recaptcha-v3';
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 import './App.css';
 import ImageCompressor from './components/ImageCompressor';
 
